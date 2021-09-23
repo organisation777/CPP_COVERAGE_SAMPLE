@@ -7,13 +7,13 @@
 		{
 			"dataDir": "$WORKSPACE/temp",
 			"repository": {
-				"uid": "6b2e26ad30cc78cbf9db2a1785fd34f0",
+				"uid": "5403557beb7fee031f6e795870b0132d",
 				"projectName": "cwa",
 				"languages": [
-					"JAVA" 
+					"CPP"
 				],
 				"sources": {
-					"baseDir": "/var/jenkins_home/jobs/Githubdemo_pipeline2/workspace",
+					"baseDir": "/var/jenkins_home/jobs/cpp_coverage_cicd_wrapper/workspace",
 					"exclusions": []
 				}
 			},
@@ -22,6 +22,50 @@
 				"includePaths": []
 			},
 			"modules": {
+				"codeissues": [
+					{
+						"name": "gamma_cxx",
+						"enabled": true,
+						"config": {
+							"rules": [],
+							"options": []
+						}
+					}
+				],
+				"unittest": [
+					{
+						"name": "gtest",
+						"enabled": true,
+						"config": {
+							"rules": [],
+							"options": [
+								{
+									"name": "reportDir",
+									"type": "upload",
+									"value": "",
+									"required": true
+								}
+							]
+						}
+					}
+				],
+				"coverage": [
+					{
+						"name": "gcov",
+						"enabled": true,
+						"config": {
+							"rules": [],
+							"options": [
+								{
+									"name": "reportDir",
+									"type": "upload",
+									"value": "/var/jenkins_home/jobs/cpp_coverage_cicd_wrapper/workspace/output/gcov",
+									"required": true
+								}
+							]
+						}
+					}
+				],
 				"relevance": [
 					{
 						"name": "relevance",
