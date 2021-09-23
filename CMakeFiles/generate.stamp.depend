@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+C:/msys64/mingw64/share/cmake-3.17/Modules/CMakeCXXInformation.cmake
+C:/msys64/mingw64/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake
+C:/msys64/mingw64/share/cmake-3.17/Modules/CMakeGenericSystem.cmake
+C:/msys64/mingw64/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake
+C:/msys64/mingw64/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake
+C:/msys64/mingw64/share/cmake-3.17/Modules/CMakeRCInformation.cmake
+C:/msys64/mingw64/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake
+C:/msys64/mingw64/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake
+C:/msys64/mingw64/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/msys64/mingw64/share/cmake-3.17/Modules/Compiler/MSVC-CXX.cmake
+C:/msys64/mingw64/share/cmake-3.17/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/msys64/mingw64/share/cmake-3.17/Modules/Platform/Windows-MSVC.cmake
+C:/msys64/mingw64/share/cmake-3.17/Modules/Platform/Windows.cmake
+C:/msys64/mingw64/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake
+D:/source_codes/zip/cpp/example-cpp11-cmake-master/CMakeFiles/3.17.0/CMakeCXXCompiler.cmake
+D:/source_codes/zip/cpp/example-cpp11-cmake-master/CMakeFiles/3.17.0/CMakeRCCompiler.cmake
+D:/source_codes/zip/cpp/example-cpp11-cmake-master/CMakeFiles/3.17.0/CMakeSystem.cmake
+D:/source_codes/zip/cpp/example-cpp11-cmake-master/CMakeLists.txt

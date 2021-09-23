@@ -1,0 +1,90 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: -g;-O0;-fprofile-arcs;-ftest-coverage
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 07-09-2021 15:04:58.
+Project "D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\3.17.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x86-windows" from "D:\rust\vcpkg\vcpkg\installed\x86-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /I"D:\rust\vcpkg\vcpkg\installed\x86-windows\include" /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\rust\vcpkg\vcpkg\installed\x86-windows\debug\lib" /LIBPATH:"D:\rust\vcpkg\vcpkg\installed\x86-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\rust\vcpkg\vcpkg\installed\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\3.17.0\CompilerIdCXX\.\CompilerIdCXX.exe
+AppLocalFromInstalled:
+  C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "D:\rust\vcpkg\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\3.17.0\CompilerIdCXX\.\CompilerIdCXX.exe" "D:\rust\vcpkg\vcpkg\installed\x86-windows\debug\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\3.17.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.35
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/source_codes/zip/cpp/example-cpp11-cmake-master/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/source_codes/zip/cpp/example-cpp11-cmake-master/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_821b5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27025.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\rust\vcpkg\vcpkg\installed\x86-windows\include" /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_821b5.dir\Debug\\" /Fd"cmTC_821b5.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue  -g -O0 -fprofile-arcs -ftest-coverage "D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  testCXXCompiler.cxx
+  
+cl : Command line warning D9002: ignoring unknown option '-g' [D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\CMakeTmp\cmTC_821b5.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-O0' [D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\CMakeTmp\cmTC_821b5.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-fprofile-arcs' [D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\CMakeTmp\cmTC_821b5.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-ftest-coverage' [D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\CMakeTmp\cmTC_821b5.vcxproj]
+  cmTC_821b5.vcxproj -> D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\CMakeTmp\Debug\cmTC_821b5.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/source_codes/zip/cpp/example-cpp11-cmake-master/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0/Bin/MSBuild.exe cmTC_8a922.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27025.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"D:\rust\vcpkg\vcpkg\installed\x86-windows\include" /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a922.dir\Debug\\" /Fd"cmTC_8a922.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue  -g -O0 -fprofile-arcs -ftest-coverage "C:\msys64\mingw64\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+cl : Command line warning D9002: ignoring unknown option '-g' [D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\CMakeTmp\cmTC_8a922.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-O0' [D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\CMakeTmp\cmTC_8a922.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-fprofile-arcs' [D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\CMakeTmp\cmTC_8a922.vcxproj]
+cl : Command line warning D9002: ignoring unknown option '-ftest-coverage' [D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\CMakeTmp\cmTC_8a922.vcxproj]
+  cmTC_8a922.vcxproj -> D:\source_codes\zip\cpp\example-cpp11-cmake-master\CMakeFiles\CMakeTmp\Debug\cmTC_8a922.exe
+
+
+
