@@ -59,7 +59,7 @@
 								{
 									"name": "reportDir",
 									"type": "upload",
-									"value": "/var/jenkins_home/jobs/cpp_coverage_cicd_wrapper/workspace/output/gcov",
+									"value": "/output/gcov",
 									"required": true
 								}
 							]
