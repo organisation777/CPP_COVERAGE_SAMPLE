@@ -6,7 +6,7 @@ Complex::Complex(double _real, double _imaginary) {
 }
 
 Complex::Complex(const Complex& rhs) {
-	this->real = rhs.real;
+	this->real = rhs.real; 
 	this->imaginary = rhs.imaginary;
 }
 
