@@ -10,7 +10,6 @@ Complex::Complex(const Complex& rhs) {
 	this->imaginary = rhs.imaginary;
 }
 
-
 Complex::~Complex() {
 
 }
