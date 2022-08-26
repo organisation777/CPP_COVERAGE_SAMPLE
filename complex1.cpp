@@ -28,7 +28,9 @@ double Complex::getReal() const {
 double Complex::getImag() const {
 	return this->imaginary;
 }
-
+double Complex::getImag1() const {
+	return this->imaginary;
+}
 double Complex::abs() const {
 	return sqrt(this->real * this->real + this->imaginary * this->imaginary);
 }
