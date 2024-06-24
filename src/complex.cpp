@@ -25,6 +25,10 @@ double Complex::getReal() const {
 	return this->real;
 }
 
+
+double Complex::getReal1() const {
+	return this->real;
+}
 double Complex::getImag() const {
 	return this->imaginary;
 }
